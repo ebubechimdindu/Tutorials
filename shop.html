@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome file link -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+</head>
+<body>
+    
+  <!-- header section start -->
+  <header class="header">
+       <a href="home.html" class="logo">
+        <i class="lar la-lightbulb">furniture</i>
+       </a>
+       <form action="" class="search-form">
+         <input type="search" placeholder="search here..." id="search-box">
+         <label for="search-box" class="fas fa-search"></label>
+       </form>
+
+       <div class="icon">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search"></div>
+        <div id="cart-btn" class="fas fa-shopping-cart"></div>
+        <div id="login-btn" class="fas fa-user"></div>
+       </div>
+  </header>
+  <!--header section end  -->
+
+  <!-- closer-btn -->
+  <div id="closer" class="fas fa-times"></div>
+
+  <!-- NavBar -->
+  <nav class="navbar">
+    <img src="./assets/images/shop.png" alt="" height="64px">
+    <a href="home.html"><i class="fas fa-home"></i>Home</a>
+    <a href="shop.html"><i class="fas fa-store"></i>Shop</a>
+    <a href="about.html"><i class="fas fa-user"></i>About</a>
+    <a href="contact.html"><i class="fas fa-envelope-open-text"></i></i>Contact</a>
+  </nav>
+ <!--// NAVBAR -->
+
+ <!--Shopping Cart  -->
+ <div class="shopping-cart">
+
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="./assets/images/cart-img-6.jpg">
+        <div class="content">
+            <span class="quantity">1</span>
+            <span class="multiply">x</span>
+            <span class="price">$140.00</span>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="./assets/images/cart-img-4.jpg">
+        <div class="content">
+            <span class="quantity">1</span>
+            <span class="multiply">x</span>
+            <span class="price">$140.00</span>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="./assets/images/cart-img-3.jpg">
+        <div class="content">
+            <span class="quantity">1</span>
+            <span class="multiply">x</span>
+            <span class="price">$140.00</span>
+        </div>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-times"></i>
+        <img src="./assets/images/cart-img-2.jpg">
+        <div class="content">
+            <span class="quantity">1</span>
+            <span class="multiply">x</span>
+            <span class="price">$140.00</span>
+        </div>
+    </div>
+
+    <h3 class="total">total:<span>$560.00</span></h3>
+
+    <a href="#" class="btn">checkout cart</a>
+    <!-- //Shopping cart -->
+ </div>
+
+    <!--Login form-->
+    <div class="login-form">
+        <form action="">
+            <h3>login form</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+            <div class="remember">
+                  <input type="checkbox" name="" id="remember-me">
+                  <label for="remember-me">remember-me</label>
+            </div>
+            <input type="submit" value="login now" class="btn">
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">create now</a></p>
+        </form>
+    </div>
+
+   <!--heading-->
+   <section class="heading">
+        <h3>our shop</h3>
+        <p><a href="home.html">home</a>/<span>shop</span></p>
+   </section>
+   <!----------- -->
+ 
+
+   <!-- category container -->
+   <section class="categories">
+        <h1 class="title"><span>our category</span><a href="#">view all >></a></h1>
+
+     <div id="category">
+        <div class="box-container">
+                <a href="#sofa" class="shop-category">
+                    <img src="./assets/images/category-sofa.png" alt="">
+                    <h3>house sofa</h3>
+                </a>
+        </div>
+
+    
+        <div class="box-container">
+            <a href="table" class="shop-category">
+                <img src="./assets/images/category-desk.png" alt="">
+                <h3>Working Table</h3>
+            </a>
+        </div>
+
+        <div class="box-container">
+            <a href="#wardrobe" class="shop-category">
+                <img src="./assets/images/category-closet.png" alt="">
+                <h3>Wardrobe</h3>
+            </a>
+        </div>
+
+        <div class="box-container">
+            <a href="#chair" class="shop-category">
+                <img src="./assets/images/category-2.png" alt="">
+                <h3>Office chair</h3>
+            </a>
+        </div>
+
+        <div class="box-container">
+            <a href="#bed" class="shop-category">
+                <img src="./assets/images/category-bed.png" alt="">
+                <h3>Bed</h3>
+            </a>
+        </div>
+
+        
+    </div>
+   </section>
+    <!-- category container -->
+
+
+
+   <!--products  -->
+   <!-- <section class="products">
+        <h1 class="title"><span>our products</span><a href="#">view all >></a></h1>
+        <div class="icons">
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-eye"></a>
+        </div>
+ -->
+   <!-- </section> -->
+    
+   <section class="banner-containers">
+    <h1 class="title"><span>Our Products</span><a href="#"></a></h1>
+
+        <div class="banner-container">
+
+         <div class="seller">
+            <div class="banner">
+                <img src="./assets/images/cart-img-4.jpg" alt>
+            </div>
+            <div class="content">
+                <div class="price">$120.00</div>
+                <h3>Grey chair</h3>
+                <div class="stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="far fa-star"></i>
+                   <span>(150)</span>
+                </div>
+            </div>
+         </div>
+
+    
+         <div class="seller">
+            <div class="banner">
+                <img src="./assets/images/wardrobe.jpg" alt>
+            </div>
+            <div class="content">
+                <div class="price">$175.00</div>
+                <h3>Closet</h3>
+                <div class="stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="far fa-star"></i>
+                   <span>(350)</span>
+                </div>
+            </div>
+         </div>
+
+         <div class="seller">
+            <div class="banner">
+                <img src="./assets/images/wardrobe2.jpg" alt>
+            </div>
+            <div class="content">
+                <div class="price">$170.00</div>
+                <h3>white closet</h3>
+                <div class="stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="far fa-star"></i>
+                   <span>(150)</span>
+                </div>
+            </div>
+         </div>
+
+         <div class="seller">
+            <div class="banner">
+                <img src="./assets/images/view.jpg" alt>
+            </div>
+            <div class="content">
+                <div class="price">$140.00</div>
+                <h3>sofa</h3>
+                <div class="stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="far fa-star"></i>
+                   <span>(520)</span>
+                </div>
+            </div>
+         </div>
+
+         <div class="seller">
+            <div class="banner">
+                <img src="./assets/images/sofa1.jpg" alt>
+            </div>
+            <div class="content">
+                <div class="price">$125.00</div>
+                <h3>white sofa</h3>
+                <div class="stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="far fa-star"></i>
+                   <span>(250)</span>
+                </div>
+            </div>
+         </div>
+
+         <div class="seller">
+            <div class="banner">
+                <img src="./assets/images/cart-img-5.jpg" alt>
+            </div>
+            <div class="content">
+                <div class="price">$140.00</div>
+                <h3>Black chair/h3>
+                <div class="stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="far fa-star"></i>
+                   <span>(50)</span>
+                </div>
+            </div>
+         </div>
+
+         <div class="seller">
+            <div class="banner">
+                <img src="./assets/images/bed1.jpg" alt>
+            </div>
+            <div class="content">
+                <div class="price">$210.00</div>
+                <h3>Bed</h3>
+                <div class="stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="far fa-star"></i>
+                   <span>(150)</span>
+                </div>
+            </div>
+         </div>
+
+         <div class="seller">
+            <div class="banner">
+                <img src="./assets/images/bed2.jpg" alt>
+            </div>
+            <div class="content">
+                <div class="price">$200.00</div>
+                <h3>Bed</h3>
+                <div class="stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="far fa-star"></i>
+                   <span>(550)</span>
+                </div>
+            </div>
+         </div>
+
+
+         <div class="seller">
+            <div class="banner">
+                <img src="./assets/images/office-chair.jpg" alt>
+            </div>
+            <div class="content">
+                <div class="price">$80.00</div>
+                <h3>office-chair</h3>
+                <div class="stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="far fa-star"></i>
+                   <span>(50)</span>
+                </div>
+            </div>
+         </div>
+    
+         </div>
+    
+         
+        </section>
+    <!--banner section ends-->
+
+    <section class="banner-containers">
+        <h1 class="title" id="chair"><span>chairs</span><a href="#"></a></h1>
+    
+            <div class="banner-container">
+    
+             <div class="seller">
+                <div class="banner">
+                    <img src="./assets/images/chair1.jpg" alt>
+                </div>
+                <div class="content">
+                    <div class="price">$90.00</div>
+                    <h3>cushon</h3>
+                    <div class="stars">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="far fa-star"></i>
+                       <span>(50)</span>
+                    </div>
+                </div>
+             </div>
+    
+        
+             <div class="seller">
+                <div class="banner">
+                    <img src="./assets/images/chair-img-3.jpg" alt>
+                </div>
+                <div class="content">
+                    <div class="price">$40.00</div>
+                    <h3>old chair</h3>
+                    <div class="stars">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="far fa-star"></i>
+                       <span>(50)</span>
+                    </div>
+                </div>
+             </div>
+    
+             <div class="seller">
+                <div class="banner">
+                    <img src="./assets/images/chair-img-2.jpg" alt>
+                </div>
+                <div class="content">
+                    <div class="price">$80.00</div>
+                    <h3>grey cushon</h3>
+                    <div class="stars">
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="fas fa-star"></i>
+                       <i class="far fa-star"></i>
+                       <span>(50)</span>
+                    </div>
+                </div>
+            </div>
+        
+             
+            </section>
+        <!--banner section ends-->
+
+        <section class="banner-containers">
+            <h1 class="title" id="bed"><span>Bed</span><a href="#"></a></h1>
+        
+                <div class="banner-container">
+        
+                 <div class="seller">
+                    <div class="banner">
+                        <img src="./assets/images/bed1.jpg" alt>
+                    </div>
+                    <div class="content">
+                        <div class="price">$207.00</div>
+                        <h3>Bed</h3>
+                        <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="far fa-star"></i>
+                           <span>(50)</span>
+                        </div>
+                    </div>
+                 </div>
+        
+            
+                 <div class="seller">
+                    <div class="banner">
+                        <img src="./assets/images/chair-img-3.jpg" alt>
+                    </div>
+                    <div class="content">
+                        <div class="price">$200.00</div>
+                        <h3>Bed</h3>
+                        <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="far fa-star"></i>
+                           <span>(50)</span>
+                        </div>
+                    </div>
+                 </div>
+        
+                 <div class="seller">
+                    <div class="banner">
+                        <img src="./assets/images/bed2.jpg" alt>
+                    </div>
+                    <div class="content">
+                        <div class="price">$240.00</div>
+                        <h3>Bed</h3>
+                        <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="far fa-star"></i>
+                           <span>(50)</span>
+                        </div>
+                    </div>
+                </div>
+            
+                 
+                </section>
+            <!--banner section ends-->
+    
+
+        <section class="banner-containers">
+            <h1 class="title" id="sofa"><span>Sofa</span><a href="#"></a></h1>
+        
+                <div class="banner-container">
+                 <div class="seller">
+                    <div class="banner">
+                        <img src="./assets/images/sofa1.jpg" alt>
+                    </div>
+                    <div class="content">
+                        <div class="price">$110.00</div>
+                        <h3>white sofa</h3>
+                        <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="far fa-star"></i>
+                           <span>(50)</span>
+                        </div>
+                    </div>
+                 </div>
+
+        
+                 <div class="seller">
+                    <div class="banner">
+                        <img src="./assets/images/view.jpg" alt>
+                    </div>
+                    <div class="content">
+                        <div class="price">$100.00</div>
+                        <h3>blue sofa</h3>
+                        <div class="stars">
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="fas fa-star"></i>
+                           <i class="far fa-star"></i>
+                           <span>(50)</span>
+                        </div>
+                    </div>
+                 </div>
+            
+                 </div>
+            
+                 
+                </section>
+            <!--banner section ends-->
+
+            <section class="banner-containers">
+                <h1 class="title" id="wardrobe"><span>Wardrobe</span><a href="#"></a></h1>
+            
+                    <div class="banner-container">
+            
+                     <div class="seller">
+                        <div class="banner">
+                            <img src="./assets/images/wardrobe.jpg" alt>
+                        </div>
+                        <div class="content">
+                            <div class="price">$130.00</div>
+                            <h3>wardrobe</h3>
+                            <div class="stars">
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="far fa-star"></i>
+                               <span>(50)</span>
+                            </div>
+                        </div>
+                     </div>
+            
+                
+                     <div class="seller">
+                        <div class="banner">
+                            <img src="./assets/images/room-with-cat-floor-lamp-wall.jpg" alt>
+                        </div>
+                        <div class="content">
+                            <div class="price">$200.00</div>
+                            <h3>closet</h3>
+                            <div class="stars">
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="far fa-star"></i>
+                               <span>(50)</span>
+                            </div>
+                        </div>
+                     </div>
+            
+                     <div class="seller">
+                        <div class="banner">
+                            <img src="./assets/images/wardrobe2.jpg" alt>
+                        </div>
+                        <div class="content">
+                            <div class="price">$120.00</div>
+                            <h3>white wardrobe</h3>
+                            <div class="stars">
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="fas fa-star"></i>
+                               <i class="far fa-star"></i>
+                               <span>(50)</span>
+                            </div>
+                        </div>
+                     </div>
+                    </section>
+                <!--banner section ends-->
+  
+
+
+
+
+
+
+
+
+
+    <!--footer section-->
+    <section class="footer">
+        <div class="box-container">
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="home.html"><i class="fas fa-arrow-right"></i>Home</a>
+                <a href="shop.html"><i class="fas fa-arrow-right"></i>Shop</a>
+                <a href="about.html"><i class="fas fa-arrow-right"></i>About</a>
+                <a href="contact.html"><i class="fas fa-arrow-right"></i>Contact</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="home.html"> <i class="fas fa-arrow-right"></i>my order</a>
+                <a href="shop.html"><i class="fas fa-arrow-right"></i>my wishlist</a>
+                <a href="about.html"><i class="fas fa-arrow-right"></i>my account</a>
+                <a href="contact.html"><i class="fas fa-arrow-right"></i>my purchases</a>
+                <a href="contact.html"><i class="fas fa-arrow-right"></i>terms of users</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="home.html"> <i class="fab fa-facebook-f"></i>facebook</a>
+                <a href="shop.html"><i class="fab fa-twitter"></i>twitter</a>
+                <a href="about.html"><i class="fab fa-instagram"></i>instagram</a>
+                <a href="contact.html"><i class="fab fa-linkedin"></i>linkedin</a>
+                <a href="contact.html"><i class="fab fa-pinterest"></i>pinterest</a>
+            </div>
+
+            <div class="box">
+                <h3>news letter</h3>
+                <p>subcribe for latest updates</p>
+                <form action="">
+                    <input type="email" name="" placeholder="enter the email" id="">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+
+        </div>
+    </section>
+    <!--footer section-->
+  
+   <section class="credit">
+        created by maestro ltd|all rights reserved 
+   </section>
+
+    <!-- Custom js file -->
+    <script src="furnitures.js">
+
+
+    </script>
+</body>
+</html>
